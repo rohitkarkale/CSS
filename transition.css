@@ -1,0 +1,33 @@
+div{
+    height: 100px;
+    width: 100px;
+    border: 2px solid black;
+    border-radius: 8px;
+    background-color: lightsalmon;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* transition: all;
+    transition-duration: 5s;
+    transition-timing-function: ease-out;
+    transition-delay: 2s; */
+    transition: all ease-in 1s;
+    position: relative;
+    top: 100px;
+    left: 100px;
+   ;
+    
+    /* transform: scale(2,2); */
+    /* transform: rotate(45deg); */
+    
+}
+
+div:hover{
+    background-color: brown;
+    color: white;
+    font-size: 20px;
+    /* transform: translateY(50px); */
+   
+    
+}
+

@@ -1,0 +1,54 @@
+body{
+     background-color: white;
+}
+    div{
+    height: 100px;
+    width: 100px;
+    background-color: lightgreen;
+    border: 2px solid black;
+    border-radius: 10px;
+    position: absolute;
+    top: 100px;
+    left: 100px;
+    /* animation-name: textsize;
+    animation-duration: 2s;
+    animation-timing-function: ease-in;
+    animation-delay: 2s;
+    animation-iteration-count: 5;
+    animation-direction: reverse; */
+    animation : textsize 2s ease-in 2s infinite normal;
+   
+}
+
+@keyframes animatedcolor {
+    from {background-color: lightgreen;}
+    to {background-color: lightcoral;}
+}
+
+@keyframes textsize {
+    from{
+        height: 100px;
+    }
+    to{
+        height: 200px;
+    }
+    from{
+        width: 100px;
+    }
+    to{
+        width: 200px;
+    }
+    from{
+        padding-left: 0px;
+    }
+    to {
+        padding-left: 50px;
+    }
+    from{
+        padding-top: 0px;
+    }
+    to{
+        padding-top: 50px;
+    }
+   
+}

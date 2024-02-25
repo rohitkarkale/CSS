@@ -1,0 +1,58 @@
+.container{
+    background-color: #333; 
+    display: flex;
+    justify-content: space-evenly;
+    
+}
+a{
+    text-decoration: none;
+    color: white;
+ 
+   
+}
+li{
+    list-style-type: none;
+    display: inline;
+}
+
+
+.inside{
+    align-self: center;
+    height: 100px;
+    width: 100px;
+    border: 2px solid black;
+    background-color: lightblue;
+   
+}
+.outside{
+    border: 2px solid black;
+    background-color: brown;
+    height: 300px;
+    width: 300px;
+    display: flex;
+    justify-content: center;
+}
+
+h1{
+    background-color: #333;
+    color: white;
+    display: flex;
+    justify-content: center;
+}
+@media (max-width: 500px) {
+    h1{
+        color: lightcoral;
+    }
+}
+
+@media (min-width :200px) and (max-width :300px){
+    h1{
+        background-color: burlywood;
+    }
+}
+
+@media (min-width :600px) {
+    div{
+        background-color: pink;
+    }
+}

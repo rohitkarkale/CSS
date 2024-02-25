@@ -1,0 +1,173 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    /* background: #333; */
+    /* color: rgb(226, 213, 213); */
+}
+.color{
+    color: darkred;
+    animation: animation 2s ease-in 1s infinite normal;
+}
+
+.backgroundcolor{
+    color: white;
+    background-color: orange;
+}
+
+.colorsystem{
+    /* color: rgb(255,0,0); */
+    color: #ff0000;
+}
+
+.textalign{
+    /* text-align: left;
+    text-align: right; */
+    text-align: center;
+}
+
+.textdecoration{
+    text-align: center;
+    /* text-decoration: underline solid blue; */
+    text-decoration: line-through solid blue;
+}
+
+.fontweight{
+    text-align: center;
+    font-weight: bolder;
+}
+
+.fontfamily{
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.lineheight{
+    line-height: 20px;
+}
+
+.texttransform{
+    text-transform: uppercase;
+    text-align: center;
+}
+
+.box{
+    height: 100px;
+    width: 100px;
+    background-color: lightgreen;
+    border: 2px solid black;
+    border-radius: 8px;
+    padding: 20px;
+    margin: 20px;
+    display: inline-block;
+
+}
+
+.box1{
+    height: 100px;
+    width: 100px;
+    background-color: lightcoral;
+    border: 2px solid black;
+    border-radius: 8px;
+    display: inline-block;
+    
+}
+.box2{
+    height: 100px;
+    width: 100px;
+    background-color: lightcoral;
+    border: 2px solid black;
+    border-radius: 8px;
+    display: inline-block;
+    /* display: none; */
+    visibility: hidden;
+    
+}
+.box3{
+    height: 100px;
+    width: 100px;
+    background-color: lightcoral;
+    border: 2px solid black;
+    border-radius: 8px;
+    display: inline-block;
+}
+
+.boxx{
+    height: 100px;
+    width: 100px;
+    background-color: lightcoral;
+    border: 2px solid black;
+    border-radius: 8px;
+    display: inline-block;
+    /* position: static;  by default */
+    /* position: relative;
+    left: 100px; */
+    /* position: absolute;
+    top: 50px; */
+    /* position: fixed;
+    left: 1200px; */
+    
+}
+
+.backimage{
+    height: 200px;
+    width: 200px;
+    background-color: lightslategrey;
+    border: 2px solid black;
+    border-radius: 8px;
+    display: inline-block;
+    background-image: url();
+    background-image: url(https://images.unsplash.com/photo-1708133244400-8037fac6addb?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxlZGl0b3JpYWwtZmVlZHwxNXx8fGVufDB8fHx8fA%3D%3D);
+    background-size: cover;
+    text-align: center;
+    padding-top: 20px;
+
+}
+
+.container{
+    height: 300px;
+    width: 800px;
+    border: 3px solid black;
+    border-radius: 9px;
+    margin-left: 50px;
+    display: flex;
+    /* flex-direction: row;  by default */
+    /* flex-direction: column-reverse; */
+   /* justify-content: center;    to center horizontal axis (x) */
+   /* align-items: center;  to center vertical axis (y) */
+   justify-content: center;
+   align-items: center;
+   background-image: url(https://images.unsplash.com/photo-1708016376725-5136317572eb?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxlZGl0b3JpYWwtZmVlZHw2NHx8fGVufDB8fHx8fA%3D%3D);
+   background-size: cover;
+}
+
+.flex{
+    height: 100px;
+    width: 100px;
+    border: 2px solid black;
+    background-color: lightskyblue;
+    display: inline-block;
+}
+
+@media (min-width :400px)and(min-width : 600px) {
+    .color{color: black;}
+}
+
+.book{
+    height: 100px;
+    width: 100px;
+    border: 3px solid black;
+    background-color: goldenrod;
+    color: white;
+    position: relative;
+    top: 50px;
+    left: 50px;
+    transition: all 2s ease-in 2s;
+   
+
+}
+
+.book:hover{
+    background-color: lightcoral;
+    color: black;
+}
+

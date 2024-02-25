@@ -1,0 +1,15 @@
+#parent{
+    height: 20px;
+    width: 200px;
+    background-color: #333;
+    font-size: 10px;
+    
+}
+#child{
+    height: 6em;
+    width: 200px;
+    font-size: 5em;
+    width: 3em;
+    
+    background-color: blue;
+}

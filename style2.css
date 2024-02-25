@@ -1,0 +1,32 @@
+#head{
+    color:white;
+    text-align: center;
+    text-decoration:underline blue;
+    font-weight: lighter;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body{
+    background-color: #333;
+}
+p{
+    color: white;
+    text-align: left;
+    text-decoration: underline;
+    font-family: Arial, Helvetica, sans-serif;
+    line-height: 30px;
+}
+h1{
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: normal;
+    text-decoration: overline blue;
+    text-align: right;
+    color:white;
+}
+
+span{
+    font-size: 50px;
+    color:white
+}
+
+ 
